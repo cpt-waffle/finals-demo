@@ -1,9 +1,10 @@
+import './Form.css';
 
 const Form = props => {
-  return (<form>
-   <p>First Name<input type='text' name="name"/></p>
-   <p>Last Name<input type='text' name="name"/></p>
-
+  return (<form className="form">
+    <p>First Name<input type='text' name="name"/></p>
+    <p>Last Name<input type='text' name="name"/></p>
+    <button> Submit</button>
   </form>);
 }
 
